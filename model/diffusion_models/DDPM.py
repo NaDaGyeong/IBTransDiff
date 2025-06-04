@@ -49,10 +49,10 @@ class Model(nn.Module):
             self.sampler = DPMSolverSampler(u_net, self.diffusion_worker)
 
         # Choose pre-train Transformer models
-        self.cond_pred_model = ns_Transformer.Model(args)
+        # self.cond_pred_model = ns_Transformer.Model(args)
         # self.cond_pred_model = ns_iTransformer.Model(args)
         # self.cond_pred_model = Autoformer.Model(args)
-        # self.cond_pred_model = Informer.Model(args)
+        self.cond_pred_model = Informer.Model(args)
 
 
     def pretrain_forward(self, x_enc, x_mark_enc, x_dec, x_mark_dec,
