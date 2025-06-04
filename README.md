@@ -16,3 +16,11 @@ Environment:
 
 ## 2. Dataset
 The datasets can be obtained from [Google Drive](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)
+
+## 3. Run Experiment
+
+### Full pipeline
+```
+python run.py
+```
+
