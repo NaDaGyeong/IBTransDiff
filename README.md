@@ -6,11 +6,13 @@ This repository provides an implementation of a diffusion-based time series fore
 Install required packages:
 ```bash
 pip install -r requirements.txt
+```
 
 Environment:
 * Python 3.8
 * Pytorch 2.1.2
 * Ubuntu 20.04
+
 
 ## 2. Dataset
 The datasets can be obtained from
