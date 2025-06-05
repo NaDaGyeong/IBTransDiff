@@ -21,7 +21,7 @@ We use benchmark datasets including Exchange, ETTm2, ILI, Electricity, and Weath
 We stricitly follow the preprocessing steps and data splits described in prior work.
 
 The raw datasets can be downloaded from:
-[Google Drive](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)
+[Dataset]([https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy](https://github.com/thuml/Autoformer/tree/main))
 
 
 ## 3. Run Experiment
