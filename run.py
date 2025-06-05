@@ -84,10 +84,6 @@ if __name__ == '__main__':
                         help='hidden layer dimensions of projector (List)') 
     parser.add_argument('--p_hidden_layers', type=int, default=2, help='number of hidden layers in projector') 
 
-    # CART related args
-    parser.add_argument('--diffusion_config_dir', type=str, default='./model/configs/toy_8gauss.yml',
-                        help='')
-
     parser.add_argument('--cond_pred_model_pertrain_dir', type=str,
                         default='./checkpoints/cond_pred_model_pertrain_NS_Transformer/checkpoint.pth', help='')
 
