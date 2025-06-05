@@ -13,7 +13,7 @@ if __name__ == '__main__':
 
     # basic config
     parser.add_argument('--is_training', type=bool, default=True, help='status')
-    parser.add_argument('--model_id', type=str, default='exchange', help='model id')
+    parser.add_argument('--model_id', type=str, default='exchange_96_192_informer_IB_1e-3', help='model id')
     parser.add_argument('--model', type=str, default='DDPM', help='model name, options: [DDPM]')
 
     # data loader
