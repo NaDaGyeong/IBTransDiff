@@ -121,13 +121,10 @@ if __name__ == '__main__':
     parser.add_argument('--wandb_project', type=str, default='diffusion', help='wandb project name')
     parser.add_argument('--wandb_entity', type=str, default=None, help='wandb entity name')
 
-    parser.add_argument('--affine', type=int, default=0, help='RevIN-affine; True 1 False 0')
     parser.add_argument('--num_vars', type=int, default=8, help='# of variables') # ETT family : 7, Exchange : 8, Electiricity: 321, Traffic:862
-    parser.add_argument('--subtract_last', type=int, default=1, help='0: subtract mean; 1: subtract last')
     parser.add_argument('--our_ddpm_clip', type=float, default=100) # 100
 
     parser.add_argument('--class_strategy', type=str, default='projection', help='projection/average/cls_token') # iTransformer
-    parser.add_argument('--use_norm', type=int, default=False, help='use norm and denorm')
 
     parser.add_argument('--use_dec_inp', type=bool, default=False, help='use dec_inp in training')
     parser.add_argument('--cond_i', type=bool, default=True, help='use dec_inp in training')
