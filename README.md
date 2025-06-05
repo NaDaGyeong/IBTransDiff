@@ -30,10 +30,7 @@ python run.py
 python run.py --is_training False
 ```
 
-## 4. Pretrained Model
-Pretrained weights used to generate the reported results are available in the \texttt{checkpoints/} directory of the repository.
-
-## 5. Experiment Results
+## 4. Experiment Results
 ![Image](https://github.com/user-attachments/assets/304897c0-be56-4e4c-93af-e4ad75de4c7a)
 ![Image](https://github.com/user-attachments/assets/6e487c0f-fee1-4268-8c66-ca1959eed464)
 
