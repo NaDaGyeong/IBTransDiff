@@ -35,7 +35,10 @@ python run.py
 python run.py --is_training False
 ```
 
-## 4. Experiment Results
+## 4. Pretrained weights
+The pretrained model checkpoint used in our experiments is available via the GitHub Release section of this repository.
+
+## 5. Experiment Results
 ![Image](https://github.com/user-attachments/assets/304897c0-be56-4e4c-93af-e4ad75de4c7a)
 ![Image](https://github.com/user-attachments/assets/6e487c0f-fee1-4268-8c66-ca1959eed464)
 
