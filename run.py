@@ -92,17 +92,9 @@ if __name__ == '__main__':
 
     parser.add_argument('--MLP_diffusion_net', type=bool, default=False, help='use MLP or Unet')
 
-    # Some args for Ax (all about diffusion part)
-    parser.add_argument('--timesteps', type=int, default=1000, help='')
-
     parser.add_argument('--pretrain_epochs', type=int, default=20, help='train epochs')
     parser.add_argument('--UNet_Type', type=str, default='CNN', help=['CNN'])
     parser.add_argument('--type_sampler', type=str, default='dpm', help=["none", "dpm"])
-
-
-
-
-
 
     parser.add_argument('--use_window_normalization', type=bool, default=True)
     parser.add_argument('--diff_steps', type=int, default=100, help='number of diffusion steps')
