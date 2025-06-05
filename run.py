@@ -145,7 +145,7 @@ if __name__ == '__main__':
     parser.add_argument('--cond_i', type=bool, default=True, help='use dec_inp in training')
 
     parser.add_argument('--channel_independence', type=bool, default=False, help='whether to use channel_independence mechanism')
-    parser.add_argument('--gamma_compression', type=float, default=1e-4, help='compression term weight')
+    parser.add_argument('--gamma_compression', type=float, default=1e-3, help='compression term weight')
 
 
     args = parser.parse_args()
