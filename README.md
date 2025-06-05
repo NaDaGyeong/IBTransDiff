@@ -2,6 +2,8 @@
 
 This repository provides an implementation of a diffusion-based time series forecasting framework guided by Transformer-derived global context and regularized via Information Bottleneck principles.
 
+![Image](https://github.com/user-attachments/assets/20f92d21-6d9e-466b-b902-506ba3597d27)
+
 ## 1. Setup
 Install required packages:
 ```bash
@@ -32,5 +34,6 @@ python run.py --is_training False
 Pretrained weights used to generate the reported results are available in the \texttt{checkpoints/} directory of the repository.
 
 ## 5. Experiment Results
-
+![Image](https://github.com/user-attachments/assets/304897c0-be56-4e4c-93af-e4ad75de4c7a)
+![Image](https://github.com/user-attachments/assets/6e487c0f-fee1-4268-8c66-ca1959eed464)
 
