@@ -17,7 +17,12 @@ Environment:
 
 
 ## 2. Dataset
-The datasets can be obtained from [Google Drive](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)
+We use benchmark datasets including Exchange, ETTm2, ILI, Electricity, and Weather, commonly used in time series forecasting.
+We stricitly follow the preprocessing steps and data splits described in prior work.
+
+The raw datasets can be downloaded from:
+[Google Drive](https://drive.google.com/drive/folders/1ZOYpTUa82_jCcxIdTmyr0LXQfvaM9vIy)
+
 
 ## 3. Run Experiment
 
