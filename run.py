@@ -77,7 +77,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu', type=int, default=1, help='gpu')
     parser.add_argument('--use_multi_gpu', type=bool, default=False, help='use multiple gpus')
     parser.add_argument('--devices', type=str, default='1', help='device ids of multile gpus')
-    parser.add_argument('--seed', type=int, default=1719184442, help='random seed')
+    parser.add_argument('--seed', type=int, default=-1, help='random seed')
 
     # de-stationary projector params
     parser.add_argument('--p_hidden_dims', type=int, nargs='+', default=[64, 64],
